@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		981795881DF3026500730A43 /* UIViewController+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 981795871DF3026500730A43 /* UIViewController+Path.m */; };
+		9836A76E1DF0E5FC0005DE24 /* GameQuiz.m in Sources */ = {isa = PBXBuildFile; fileRef = 9836A76D1DF0E5FC0005DE24 /* GameQuiz.m */; };
 		984CE2121DED76E000288C7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 984CE2111DED76E000288C7B /* main.m */; };
 		984CE2151DED76E000288C7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 984CE2141DED76E000288C7B /* AppDelegate.m */; };
 		984CE2181DED76E000288C7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984CE2171DED76E000288C7B /* ViewController.m */; };
@@ -15,6 +17,12 @@
 		984CE2201DED76E000288C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984CE21E1DED76E000288C7B /* LaunchScreen.storyboard */; };
 		984CE22B1DED76E000288C7B /* BeaQuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 984CE22A1DED76E000288C7B /* BeaQuizTests.m */; };
 		984CE2361DED76E000288C7B /* BeaQuizUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 984CE2351DED76E000288C7B /* BeaQuizUITests.m */; };
+		984CE2451DED8CF500288C7B /* PseudoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984CE2441DED8CF500288C7B /* PseudoController.m */; };
+		984CE24B1DEF0BCB00288C7B /* GameConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 984CE24A1DEF0BCB00288C7B /* GameConfig.m */; };
+		984CE2541DEF0ECE00288C7B /* GameWait.m in Sources */ = {isa = PBXBuildFile; fileRef = 984CE2531DEF0ECE00288C7B /* GameWait.m */; };
+		984CE25A1DEF285800288C7B /* JoinGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 984CE2591DEF285800288C7B /* JoinGame.m */; };
+		985A66051DF0921900FEFBEB /* MainGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 985A66041DF0921900FEFBEB /* MainGame.m */; };
+		988EED331DF02885004505B2 /* ResultGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 988EED321DF02885004505B2 /* ResultGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		981795861DF3026500730A43 /* UIViewController+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Path.h"; sourceTree = "<group>"; };
+		981795871DF3026500730A43 /* UIViewController+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Path.m"; sourceTree = "<group>"; };
+		9836A76C1DF0E5FC0005DE24 /* GameQuiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameQuiz.h; sourceTree = "<group>"; };
+		9836A76D1DF0E5FC0005DE24 /* GameQuiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameQuiz.m; sourceTree = "<group>"; };
 		984CE20D1DED76E000288C7B /* BeaQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		984CE2111DED76E000288C7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		984CE2131DED76E000288C7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,18 @@
 		984CE2311DED76E000288C7B /* BeaQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		984CE2351DED76E000288C7B /* BeaQuizUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaQuizUITests.m; sourceTree = "<group>"; };
 		984CE2371DED76E000288C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		984CE2431DED8CF500288C7B /* PseudoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PseudoController.h; sourceTree = "<group>"; };
+		984CE2441DED8CF500288C7B /* PseudoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PseudoController.m; sourceTree = "<group>"; };
+		984CE2491DEF0BCB00288C7B /* GameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
+		984CE24A1DEF0BCB00288C7B /* GameConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameConfig.m; sourceTree = "<group>"; };
+		984CE2521DEF0ECD00288C7B /* GameWait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameWait.h; sourceTree = "<group>"; };
+		984CE2531DEF0ECE00288C7B /* GameWait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameWait.m; sourceTree = "<group>"; };
+		984CE2581DEF285800288C7B /* JoinGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinGame.h; sourceTree = "<group>"; };
+		984CE2591DEF285800288C7B /* JoinGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinGame.m; sourceTree = "<group>"; };
+		985A66031DF0921800FEFBEB /* MainGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainGame.h; sourceTree = "<group>"; };
+		985A66041DF0921900FEFBEB /* MainGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainGame.m; sourceTree = "<group>"; };
+		988EED311DF02885004505B2 /* ResultGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultGame.h; sourceTree = "<group>"; };
+		988EED321DF02885004505B2 /* ResultGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +129,27 @@
 				984CE2141DED76E000288C7B /* AppDelegate.m */,
 				984CE2161DED76E000288C7B /* ViewController.h */,
 				984CE2171DED76E000288C7B /* ViewController.m */,
+				984CE2431DED8CF500288C7B /* PseudoController.h */,
+				984CE2441DED8CF500288C7B /* PseudoController.m */,
 				984CE2191DED76E000288C7B /* Main.storyboard */,
+				9836A76C1DF0E5FC0005DE24 /* GameQuiz.h */,
+				9836A76D1DF0E5FC0005DE24 /* GameQuiz.m */,
+				985A66031DF0921800FEFBEB /* MainGame.h */,
+				985A66041DF0921900FEFBEB /* MainGame.m */,
+				984CE2521DEF0ECD00288C7B /* GameWait.h */,
+				984CE2531DEF0ECE00288C7B /* GameWait.m */,
+				984CE2491DEF0BCB00288C7B /* GameConfig.h */,
+				984CE24A1DEF0BCB00288C7B /* GameConfig.m */,
 				984CE21C1DED76E000288C7B /* Assets.xcassets */,
 				984CE21E1DED76E000288C7B /* LaunchScreen.storyboard */,
 				984CE2211DED76E000288C7B /* Info.plist */,
 				984CE2101DED76E000288C7B /* Supporting Files */,
+				984CE2581DEF285800288C7B /* JoinGame.h */,
+				984CE2591DEF285800288C7B /* JoinGame.m */,
+				988EED311DF02885004505B2 /* ResultGame.h */,
+				988EED321DF02885004505B2 /* ResultGame.m */,
+				981795861DF3026500730A43 /* UIViewController+Path.h */,
+				981795871DF3026500730A43 /* UIViewController+Path.m */,
 			);
 			path = BeaQuiz;
 			sourceTree = "<group>";
@@ -207,6 +247,7 @@
 				TargetAttributes = {
 					984CE20C1DED76E000288C7B = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 78X6CXDNXU;
 						ProvisioningStyle = Automatic;
 					};
 					984CE2251DED76E000288C7B = {
@@ -273,9 +314,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981795881DF3026500730A43 /* UIViewController+Path.m in Sources */,
+				985A66051DF0921900FEFBEB /* MainGame.m in Sources */,
 				984CE2181DED76E000288C7B /* ViewController.m in Sources */,
+				988EED331DF02885004505B2 /* ResultGame.m in Sources */,
+				984CE2451DED8CF500288C7B /* PseudoController.m in Sources */,
+				984CE2541DEF0ECE00288C7B /* GameWait.m in Sources */,
+				9836A76E1DF0E5FC0005DE24 /* GameQuiz.m in Sources */,
 				984CE2151DED76E000288C7B /* AppDelegate.m in Sources */,
 				984CE2121DED76E000288C7B /* main.m in Sources */,
+				984CE24B1DEF0BCB00288C7B /* GameConfig.m in Sources */,
+				984CE25A1DEF285800288C7B /* JoinGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +473,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ndri.desire@gmail.com (FW89E5MN2V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 78X6CXDNXU;
 				INFOPLIST_FILE = BeaQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eemidev.BeaQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = "desire.ndri-gmggailpc.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -435,10 +489,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ndri.desire@gmail.com (FW89E5MN2V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 78X6CXDNXU;
 				INFOPLIST_FILE = BeaQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eemidev.BeaQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = "desire.ndri-gmggailpc.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -507,6 +566,7 @@
 				984CE23C1DED76E000288C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		984CE23D1DED76E000288C7B /* Build configuration list for PBXNativeTarget "BeaQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +575,7 @@
 				984CE23F1DED76E000288C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		984CE2401DED76E000288C7B /* Build configuration list for PBXNativeTarget "BeaQuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +584,7 @@
 				984CE2421DED76E000288C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

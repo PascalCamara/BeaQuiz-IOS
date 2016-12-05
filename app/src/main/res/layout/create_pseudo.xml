@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/createPseudo"
+    android:background="@color/colorPrimaryDark"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Créer ton pseudo"
+        android:layout_width="match_parent"
+        android:id="@+id/textView2"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_margin="10dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/pseudoText"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:hint="Votre pseudo"
+        android:layout_weight="0.03"
+        android:textColorLink="?attr/actionMenuTextColor"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:text="Créer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/createPseudoBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@color/colorPrimaryDarkplus"
+        android:textColor="@android:color/background_light"
+        android:layout_margin="10dp" />
+
+    <ProgressBar
+        style="@android:style/Widget.Material.ProgressBar.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pseudoProgressBar"
+        android:visibility="invisible"
+        android:elevation="19dp"
+        android:layout_margin="10dp" />
+</LinearLayout>
